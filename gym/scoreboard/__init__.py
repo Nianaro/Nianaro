@@ -1172,5 +1172,10 @@ The robot model was originally created by Tassa et al. [Tassa12]_.
 """,
     deprecated=True,
 )
-
+add_task(
+    id='TetrisRace-v0',
+    summary='Agent avoiding all walls',
+    group='classic_control',
+    contributor='God',
+)
 registry.finalize()

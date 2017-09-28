@@ -51,6 +51,10 @@ register(
 # ----------------------------------------
 
 register(
+    id='TetrisRace-v0',
+    entry_point='gym.envs.classic_control.tetris_race:TetrisRaceEnv',
+)
+register(
     id='CartPole-v0',
     entry_point='gym.envs.classic_control:CartPoleEnv',
     max_episode_steps=200,
